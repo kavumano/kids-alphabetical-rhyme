@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+#imageContainer {
+    margin-bottom: 20px;
+}
+
+#alphabetImage {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Set a maximum height for the image */
+}
+
+#alphabetContainer {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+    text-align: center;
+}
+
+#rhymeContainer {
+    text-align: center;
+    color: #666; /* Medium gray text color */
+    margin-bottom: 20px; /* Add margin to the bottom */
+}
+
+#rhymeText {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#buttonContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px; /* Add margin to the top */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+#prevButton {
+    background-color: #4caf50; /* Green button */
+    color: white;
+}
+
+#nextButton {
+    background-color: #2196f3; /* Blue button */
+    color: white;
+}
